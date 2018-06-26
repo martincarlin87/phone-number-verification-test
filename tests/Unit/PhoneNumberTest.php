@@ -66,9 +66,9 @@ class PhoneNumberTest extends TestCase
         $phoneNumber = new PhoneNumber;
         $phoneNumber->number = '07805171823';
 
-        $phoneNumber->setCarrier('Digitonic');
+        $phoneNumber->setCarrier('EE');
 
-        $this->assertEquals('Digitonic', $phoneNumber->carrier);
+        $this->assertEquals('EE', $phoneNumber->carrier);
     }
 
     /**
