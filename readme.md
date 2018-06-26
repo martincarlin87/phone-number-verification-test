@@ -1,4 +1,4 @@
-# Digitonic Technical Test
+# Technical Test
 
 To use your own numverify api key, simply add an entry to your .env file:
 
